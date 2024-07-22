@@ -20,17 +20,18 @@ body, button, span, div {
     flex-direction: column;
     align-items: flex-end;
     z-index: 1000;
+    border-radius: 30px;
   }
   
   .chatbot-ui {
     position: fixed;
     bottom: 0;
-    width: 100%;
     max-width: 400px;
     right: 20px;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: white;
+    border-radius: 30px;
     transform: translateY(100%);
   }
   
@@ -44,11 +45,14 @@ body, button, span, div {
   
   .chatbot-header {
     display: flex;
+    max-width: 400px;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #ccc;
+    border-radius: 30px;
   }
   
   .chatbot-header .chatbot-close-btn {
